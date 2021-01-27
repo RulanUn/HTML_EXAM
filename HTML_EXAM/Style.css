@@ -1,0 +1,178 @@
+.maincontainer{
+    display: flex;
+    justify-content: center;
+}
+.link1{
+    font-size: 25px;
+    width: 1000px;
+    box-sizing: border-box;
+}
+.link{
+    font-weight: bold;
+    padding-right: 50px;
+    text-decoration: none;
+}
+.link:link{
+    color: black;
+}
+.link:visited{
+    color: black;
+}
+.link2{
+    width: 600px;
+    padding-left: 300px;
+    box-sizing: border-box;
+}
+.social_network{
+    padding-right: 20px;
+}
+.maincontainer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.text{
+    width: 800px;
+    height: auto;
+    padding: 170px 150px 0px 150px;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+#main_header{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.image{
+    width: 800px;
+    height: auto;
+}
+.text1{
+    width: 800px;
+    height: auto;
+    padding: 100px 0px 0px 0px;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+.button{
+    width: 100px;
+    height: 50px;
+    color: grey;
+    font-size: 15px;
+    border-radius: 10%;
+    background-color: white;
+    border-color: darkgrey;
+}
+#Mexico{
+    padding-left: 200px;
+}
+.header{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.table_cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.table_cont_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.table{
+    width: 500px;
+    height: 300px;
+}
+.table_text{
+    text-align: center;
+}
+.table_icon{
+    padding-top: 70px;
+    padding-left: 225px;
+}
+.feedback{
+    width: 800px;
+    height: 500px;
+    padding-left: 70px;
+    margin: 0 auto;
+    display: flex;
+}
+.form_info{
+    font-size: 25px;
+    display: inline;
+    padding-right: 185px;
+}
+.form_info_1{
+    font-size: 25px;
+}
+.form_input{
+    font-size: 20px;
+}
+textarea{
+    width: 755px;
+    height: 200px;
+    resize: none;
+}
+.form_button{
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    margin-left: 497px;
+}
+.end_link{
+    display: flex;
+    justify-content: center;
+}
+.round{
+    border-radius: 100px; 
+    border: 3px solid white; 
+    box-shadow: 0 0 7px #666; 
+}
+.end_link a{
+    padding-right: 20px;
+}
+.first{
+    background: url("Road.jpg"); 
+    height: 250px;
+    width: 500px;
+}
+.text_inside{
+    display: none;
+    font-size: 20px;
+    margin-top: 0px;
+    line-height: 250px;
+    text-align: center;
+    color: white;
+}
+.first:hover .text_inside{
+    display: block;
+    background: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.first:hover .button_inside{
+    display: block;
+    background: white(0,0,0,0.5);
+    cursor: pointer;
+}
+.second{
+    background: url("Bonfire.jpg"); 
+    height: 250px;
+    width: 400px;
+}
+.second:hover .text_inside{
+    display: block;
+    background: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.third{
+    background: url("Forest.jpg"); 
+    height: 250px;
+    width: 700px;
+}
+.third:hover .text_inside{
+    display: block;
+    background: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
